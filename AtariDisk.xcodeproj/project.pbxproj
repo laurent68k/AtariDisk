@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* AtariDiskAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* AtariDiskAppDelegate.m */; };
+		4D83EECF14F15E030011A6D6 /* AppIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEBA14F15E030011A6D6 /* AppIcon.jpg */; };
+		4D83EED014F15E030011A6D6 /* ATARI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEBB14F15E030011A6D6 /* ATARI.jpg */; };
+		4D83EED114F15E030011A6D6 /* ATARIJaguar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEBC14F15E030011A6D6 /* ATARIJaguar.jpg */; };
+		4D83EED214F15E030011A6D6 /* AtariLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEBD14F15E030011A6D6 /* AtariLogo.jpg */; };
+		4D83EED314F15E030011A6D6 /* eject.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEBE14F15E030011A6D6 /* eject.jpg */; };
+		4D83EED414F15E030011A6D6 /* floppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEBF14F15E030011A6D6 /* floppy.jpg */; };
+		4D83EED514F15E030011A6D6 /* FloppyDrive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEC014F15E030011A6D6 /* FloppyDrive.jpg */; };
+		4D83EED614F15E030011A6D6 /* FloppyStack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEC114F15E030011A6D6 /* FloppyStack.jpg */; };
+		4D83EED714F15E030011A6D6 /* folderAnonymous.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEC214F15E030011A6D6 /* folderAnonymous.jpg */; };
+		4D83EED814F15E030011A6D6 /* folderAuto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEC314F15E030011A6D6 /* folderAuto.jpg */; };
+		4D83EED914F15E030011A6D6 /* folderDownload.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEC414F15E030011A6D6 /* folderDownload.jpg */; };
+		4D83EEDA14F15E030011A6D6 /* folderLibrary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEC514F15E030011A6D6 /* folderLibrary.jpg */; };
+		4D83EEDB14F15E030011A6D6 /* folderPhotos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEC614F15E030011A6D6 /* folderPhotos.jpg */; };
+		4D83EEDC14F15E030011A6D6 /* folderText.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEC714F15E030011A6D6 /* folderText.jpg */; };
+		4D83EEDD14F15E030011A6D6 /* folderThePiratebay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEC814F15E030011A6D6 /* folderThePiratebay.jpg */; };
+		4D83EEDE14F15E030011A6D6 /* folderTimeMachine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EEC914F15E030011A6D6 /* folderTimeMachine.jpg */; };
+		4D83EEDF14F15E030011A6D6 /* folderUtility.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EECA14F15E030011A6D6 /* folderUtility.jpg */; };
+		4D83EEE014F15E030011A6D6 /* folderXCode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EECB14F15E030011A6D6 /* folderXCode.jpg */; };
+		4D83EEE114F15E030011A6D6 /* MediaFloppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EECC14F15E030011A6D6 /* MediaFloppy.jpg */; };
+		4D83EEE214F15E030011A6D6 /* programApplication.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EECD14F15E030011A6D6 /* programApplication.jpg */; };
+		4D83EEE314F15E030011A6D6 /* programTOS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D83EECE14F15E030011A6D6 /* programTOS.jpg */; };
+		4D96443814E06D7000BF1BA9 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96443314E06D7000BF1BA9 /* Constants.m */; };
+		4D96443A14E06D7000BF1BA9 /* STFloppyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96443714E06D7000BF1BA9 /* STFloppyManager.m */; };
+		4D98576B14E4711200C3ED0C /* NodeDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98576814E4711200C3ED0C /* NodeDirectory.m */; };
+		4D98576C14E4711200C3ED0C /* NodeFloppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D98576A14E4711200C3ED0C /* NodeFloppy.m */; };
+		4D997BAD14E1BF330074B151 /* BrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D997BA614E1BF330074B151 /* BrowserCell.m */; };
+		4D997BAE14E1BF330074B151 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D997BA814E1BF330074B151 /* Node.m */; };
+		4D997BAF14E1BF330074B151 /* NodeFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D997BAA14E1BF330074B151 /* NodeFile.m */; };
+		4D9BFD7214DC4F9800681114 /* MainWndController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BFD6F14DC4F9800681114 /* MainWndController.m */; };
+		4D9BFD7314DC4F9800681114 /* STFloppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9BFD7114DC4F9800681114 /* STFloppy.m */; };
+		4D9ED3E1157A047B0011BC1A /* LFTextFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9ED3E0157A047B0011BC1A /* LFTextFormatter.m */; };
+		4DA2714514E58AFF00713104 /* STFloppyCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2714414E58AFF00713104 /* STFloppyCluster.m */; };
+		4DA27BE6154B0226000C3D08 /* GUIFilenameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA27BE5154B0226000C3D08 /* GUIFilenameController.m */; };
+		4DA27C1F154B0556000C3D08 /* Filename.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA27C1D154B0556000C3D08 /* Filename.xib */; };
+		4DADB80A14E489CF00EABC00 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4DADB80914E489CF00EABC00 /* AppIcon.icns */; };
+		4DB51DC11526238D00B579C3 /* BootSector.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB51DBF1526238D00B579C3 /* BootSector.xib */; };
+		4DC18919152F4DE900D7F068 /* GUIFormatController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC18918152F4DE900D7F068 /* GUIFormatController.m */; };
+		4DC1892C152F4EAD00D7F068 /* DiskFormat.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DC1892A152F4EAD00D7F068 /* DiskFormat.xib */; };
+		4DC6D3E115261FFB00B84338 /* GUIBootSectorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC6D3E015261FFB00B84338 /* GUIBootSectorController.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* AtariDiskAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtariDiskAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* AtariDiskAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtariDiskAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* AtariDisk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtariDisk_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4D83EEBA14F15E030011A6D6 /* AppIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AppIcon.jpg; path = Images/AppIcon.jpg; sourceTree = "<group>"; };
+		4D83EEBB14F15E030011A6D6 /* ATARI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ATARI.jpg; path = Images/ATARI.jpg; sourceTree = "<group>"; };
+		4D83EEBC14F15E030011A6D6 /* ATARIJaguar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ATARIJaguar.jpg; path = Images/ATARIJaguar.jpg; sourceTree = "<group>"; };
+		4D83EEBD14F15E030011A6D6 /* AtariLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = AtariLogo.jpg; path = Images/AtariLogo.jpg; sourceTree = "<group>"; };
+		4D83EEBE14F15E030011A6D6 /* eject.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eject.jpg; path = Images/eject.jpg; sourceTree = "<group>"; };
+		4D83EEBF14F15E030011A6D6 /* floppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = floppy.jpg; path = Images/floppy.jpg; sourceTree = "<group>"; };
+		4D83EEC014F15E030011A6D6 /* FloppyDrive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FloppyDrive.jpg; path = Images/FloppyDrive.jpg; sourceTree = "<group>"; };
+		4D83EEC114F15E030011A6D6 /* FloppyStack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FloppyStack.jpg; path = Images/FloppyStack.jpg; sourceTree = "<group>"; };
+		4D83EEC214F15E030011A6D6 /* folderAnonymous.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = folderAnonymous.jpg; path = Images/folderAnonymous.jpg; sourceTree = "<group>"; };
+		4D83EEC314F15E030011A6D6 /* folderAuto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = folderAuto.jpg; path = Images/folderAuto.jpg; sourceTree = "<group>"; };
+		4D83EEC414F15E030011A6D6 /* folderDownload.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = folderDownload.jpg; path = Images/folderDownload.jpg; sourceTree = "<group>"; };
+		4D83EEC514F15E030011A6D6 /* folderLibrary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = folderLibrary.jpg; path = Images/folderLibrary.jpg; sourceTree = "<group>"; };
+		4D83EEC614F15E030011A6D6 /* folderPhotos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = folderPhotos.jpg; path = Images/folderPhotos.jpg; sourceTree = "<group>"; };
+		4D83EEC714F15E030011A6D6 /* folderText.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = folderText.jpg; path = Images/folderText.jpg; sourceTree = "<group>"; };
+		4D83EEC814F15E030011A6D6 /* folderThePiratebay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = folderThePiratebay.jpg; path = Images/folderThePiratebay.jpg; sourceTree = "<group>"; };
+		4D83EEC914F15E030011A6D6 /* folderTimeMachine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = folderTimeMachine.jpg; path = Images/folderTimeMachine.jpg; sourceTree = "<group>"; };
+		4D83EECA14F15E030011A6D6 /* folderUtility.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = folderUtility.jpg; path = Images/folderUtility.jpg; sourceTree = "<group>"; };
+		4D83EECB14F15E030011A6D6 /* folderXCode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = folderXCode.jpg; path = Images/folderXCode.jpg; sourceTree = "<group>"; };
+		4D83EECC14F15E030011A6D6 /* MediaFloppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = MediaFloppy.jpg; path = Images/MediaFloppy.jpg; sourceTree = "<group>"; };
+		4D83EECD14F15E030011A6D6 /* programApplication.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = programApplication.jpg; path = Images/programApplication.jpg; sourceTree = "<group>"; };
+		4D83EECE14F15E030011A6D6 /* programTOS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = programTOS.jpg; path = Images/programTOS.jpg; sourceTree = "<group>"; };
+		4D96443214E06D7000BF1BA9 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4D96443314E06D7000BF1BA9 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		4D96443614E06D7000BF1BA9 /* STFloppyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFloppyManager.h; sourceTree = "<group>"; };
+		4D96443714E06D7000BF1BA9 /* STFloppyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFloppyManager.m; sourceTree = "<group>"; };
+		4D98576714E4711200C3ED0C /* NodeDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeDirectory.h; sourceTree = "<group>"; };
+		4D98576814E4711200C3ED0C /* NodeDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeDirectory.m; sourceTree = "<group>"; };
+		4D98576914E4711200C3ED0C /* NodeFloppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeFloppy.h; sourceTree = "<group>"; };
+		4D98576A14E4711200C3ED0C /* NodeFloppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeFloppy.m; sourceTree = "<group>"; };
+		4D997BA514E1BF330074B151 /* BrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserCell.h; sourceTree = "<group>"; };
+		4D997BA614E1BF330074B151 /* BrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserCell.m; sourceTree = "<group>"; };
+		4D997BA714E1BF330074B151 /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		4D997BA814E1BF330074B151 /* Node.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		4D997BA914E1BF330074B151 /* NodeFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeFile.h; sourceTree = "<group>"; };
+		4D997BAA14E1BF330074B151 /* NodeFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeFile.m; sourceTree = "<group>"; };
+		4D9BFD6E14DC4F9800681114 /* MainWndController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWndController.h; sourceTree = "<group>"; };
+		4D9BFD6F14DC4F9800681114 /* MainWndController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWndController.m; sourceTree = "<group>"; };
+		4D9BFD7014DC4F9800681114 /* STFloppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFloppy.h; sourceTree = "<group>"; };
+		4D9BFD7114DC4F9800681114 /* STFloppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFloppy.m; sourceTree = "<group>"; };
+		4D9ED3DF157A047B0011BC1A /* LFTextFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTextFormatter.h; sourceTree = "<group>"; };
+		4D9ED3E0157A047B0011BC1A /* LFTextFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTextFormatter.m; sourceTree = "<group>"; };
+		4DA2714314E58AFF00713104 /* STFloppyCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFloppyCluster.h; sourceTree = "<group>"; };
+		4DA2714414E58AFF00713104 /* STFloppyCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFloppyCluster.m; sourceTree = "<group>"; };
+		4DA27BE4154B0226000C3D08 /* GUIFilenameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIFilenameController.h; sourceTree = "<group>"; };
+		4DA27BE5154B0226000C3D08 /* GUIFilenameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUIFilenameController.m; sourceTree = "<group>"; };
+		4DA27C1E154B0556000C3D08 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Filename.xib; sourceTree = "<group>"; };
+		4DADB80914E489CF00EABC00 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+		4DB51DC01526238D00B579C3 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/BootSector.xib; sourceTree = "<group>"; };
+		4DC18917152F4DE900D7F068 /* GUIFormatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIFormatController.h; sourceTree = "<group>"; };
+		4DC18918152F4DE900D7F068 /* GUIFormatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUIFormatController.m; sourceTree = "<group>"; };
+		4DC1892B152F4EAD00D7F068 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/DiskFormat.xib; sourceTree = "<group>"; };
+		4DC6D3DF15261FFB00B84338 /* GUIBootSectorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUIBootSectorController.h; sourceTree = "<group>"; };
+		4DC6D3E015261FFB00B84338 /* GUIBootSectorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUIBootSectorController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* AtariDisk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AtariDisk-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* AtariDisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtariDisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D9ED3DE157A04680011BC1A /* Tools */,
+				4DADB82814E48B9200EABC00 /* GUI */,
+				4DADB82714E48B8900EABC00 /* Floppy */,
+				4DADB82614E48B7E00EABC00 /* Browser */,
+				256AC3D80F4B6AC300CF3369 /* AtariDiskAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* AtariDiskAppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* AtariDisk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* AtariDisk */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = AtariDisk;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* AtariDisk_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DA27C1D154B0556000C3D08 /* Filename.xib */,
+				4DC1892A152F4EAD00D7F068 /* DiskFormat.xib */,
+				4DB51DBF1526238D00B579C3 /* BootSector.xib */,
+				4DA20E5F14EEC27F00558292 /* Images */,
+				4DADB80914E489CF00EABC00 /* AppIcon.icns */,
+				8D1107310486CEB800E47090 /* AtariDisk-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D9ED3DE157A04680011BC1A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4D9ED3DF157A047B0011BC1A /* LFTextFormatter.h */,
+				4D9ED3E0157A047B0011BC1A /* LFTextFormatter.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		4DA20E5F14EEC27F00558292 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4D83EEBA14F15E030011A6D6 /* AppIcon.jpg */,
+				4D83EEBB14F15E030011A6D6 /* ATARI.jpg */,
+				4D83EEBC14F15E030011A6D6 /* ATARIJaguar.jpg */,
+				4D83EEBD14F15E030011A6D6 /* AtariLogo.jpg */,
+				4D83EEBE14F15E030011A6D6 /* eject.jpg */,
+				4D83EEBF14F15E030011A6D6 /* floppy.jpg */,
+				4D83EEC014F15E030011A6D6 /* FloppyDrive.jpg */,
+				4D83EEC114F15E030011A6D6 /* FloppyStack.jpg */,
+				4D83EEC214F15E030011A6D6 /* folderAnonymous.jpg */,
+				4D83EEC314F15E030011A6D6 /* folderAuto.jpg */,
+				4D83EEC414F15E030011A6D6 /* folderDownload.jpg */,
+				4D83EEC514F15E030011A6D6 /* folderLibrary.jpg */,
+				4D83EEC614F15E030011A6D6 /* folderPhotos.jpg */,
+				4D83EEC714F15E030011A6D6 /* folderText.jpg */,
+				4D83EEC814F15E030011A6D6 /* folderThePiratebay.jpg */,
+				4D83EEC914F15E030011A6D6 /* folderTimeMachine.jpg */,
+				4D83EECA14F15E030011A6D6 /* folderUtility.jpg */,
+				4D83EECB14F15E030011A6D6 /* folderXCode.jpg */,
+				4D83EECC14F15E030011A6D6 /* MediaFloppy.jpg */,
+				4D83EECD14F15E030011A6D6 /* programApplication.jpg */,
+				4D83EECE14F15E030011A6D6 /* programTOS.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4DADB82614E48B7E00EABC00 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				4D997BAA14E1BF330074B151 /* NodeFile.m */,
+				4D997BA914E1BF330074B151 /* NodeFile.h */,
+				4D98576714E4711200C3ED0C /* NodeDirectory.h */,
+				4D98576814E4711200C3ED0C /* NodeDirectory.m */,
+				4D98576914E4711200C3ED0C /* NodeFloppy.h */,
+				4D98576A14E4711200C3ED0C /* NodeFloppy.m */,
+				4D997BA714E1BF330074B151 /* Node.h */,
+				4D997BA814E1BF330074B151 /* Node.m */,
+				4D997BA514E1BF330074B151 /* BrowserCell.h */,
+				4D997BA614E1BF330074B151 /* BrowserCell.m */,
+			);
+			name = Browser;
+			sourceTree = "<group>";
+		};
+		4DADB82714E48B8900EABC00 /* Floppy */ = {
+			isa = PBXGroup;
+			children = (
+				4DA2714314E58AFF00713104 /* STFloppyCluster.h */,
+				4DA2714414E58AFF00713104 /* STFloppyCluster.m */,
+				4D96443214E06D7000BF1BA9 /* Constants.h */,
+				4D96443314E06D7000BF1BA9 /* Constants.m */,
+				4D96443614E06D7000BF1BA9 /* STFloppyManager.h */,
+				4D96443714E06D7000BF1BA9 /* STFloppyManager.m */,
+				4D9BFD7014DC4F9800681114 /* STFloppy.h */,
+				4D9BFD7114DC4F9800681114 /* STFloppy.m */,
+			);
+			name = Floppy;
+			sourceTree = "<group>";
+		};
+		4DADB82814E48B9200EABC00 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				4DA27BE4154B0226000C3D08 /* GUIFilenameController.h */,
+				4DA27BE5154B0226000C3D08 /* GUIFilenameController.m */,
+				4DC18917152F4DE900D7F068 /* GUIFormatController.h */,
+				4DC18918152F4DE900D7F068 /* GUIFormatController.m */,
+				4DC6D3DF15261FFB00B84338 /* GUIBootSectorController.h */,
+				4DC6D3E015261FFB00B84338 /* GUIBootSectorController.m */,
+				4D9BFD6E14DC4F9800681114 /* MainWndController.h */,
+				4D9BFD6F14DC4F9800681114 /* MainWndController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* AtariDisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AtariDisk" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtariDisk;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AtariDisk;
+			productReference = 8D1107320486CEB800E47090 /* AtariDisk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AtariDisk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* AtariDisk */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* AtariDisk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				4DADB80A14E489CF00EABC00 /* AppIcon.icns in Resources */,
+				4D83EECF14F15E030011A6D6 /* AppIcon.jpg in Resources */,
+				4D83EED014F15E030011A6D6 /* ATARI.jpg in Resources */,
+				4D83EED114F15E030011A6D6 /* ATARIJaguar.jpg in Resources */,
+				4D83EED214F15E030011A6D6 /* AtariLogo.jpg in Resources */,
+				4D83EED314F15E030011A6D6 /* eject.jpg in Resources */,
+				4D83EED414F15E030011A6D6 /* floppy.jpg in Resources */,
+				4D83EED514F15E030011A6D6 /* FloppyDrive.jpg in Resources */,
+				4D83EED614F15E030011A6D6 /* FloppyStack.jpg in Resources */,
+				4D83EED714F15E030011A6D6 /* folderAnonymous.jpg in Resources */,
+				4D83EED814F15E030011A6D6 /* folderAuto.jpg in Resources */,
+				4D83EED914F15E030011A6D6 /* folderDownload.jpg in Resources */,
+				4D83EEDA14F15E030011A6D6 /* folderLibrary.jpg in Resources */,
+				4D83EEDB14F15E030011A6D6 /* folderPhotos.jpg in Resources */,
+				4D83EEDC14F15E030011A6D6 /* folderText.jpg in Resources */,
+				4D83EEDD14F15E030011A6D6 /* folderThePiratebay.jpg in Resources */,
+				4D83EEDE14F15E030011A6D6 /* folderTimeMachine.jpg in Resources */,
+				4D83EEDF14F15E030011A6D6 /* folderUtility.jpg in Resources */,
+				4D83EEE014F15E030011A6D6 /* folderXCode.jpg in Resources */,
+				4D83EEE114F15E030011A6D6 /* MediaFloppy.jpg in Resources */,
+				4D83EEE214F15E030011A6D6 /* programApplication.jpg in Resources */,
+				4D83EEE314F15E030011A6D6 /* programTOS.jpg in Resources */,
+				4DB51DC11526238D00B579C3 /* BootSector.xib in Resources */,
+				4DC1892C152F4EAD00D7F068 /* DiskFormat.xib in Resources */,
+				4DA27C1F154B0556000C3D08 /* Filename.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* AtariDiskAppDelegate.m in Sources */,
+				4D9BFD7214DC4F9800681114 /* MainWndController.m in Sources */,
+				4D9BFD7314DC4F9800681114 /* STFloppy.m in Sources */,
+				4D96443814E06D7000BF1BA9 /* Constants.m in Sources */,
+				4D96443A14E06D7000BF1BA9 /* STFloppyManager.m in Sources */,
+				4D997BAD14E1BF330074B151 /* BrowserCell.m in Sources */,
+				4D997BAE14E1BF330074B151 /* Node.m in Sources */,
+				4D997BAF14E1BF330074B151 /* NodeFile.m in Sources */,
+				4D98576B14E4711200C3ED0C /* NodeDirectory.m in Sources */,
+				4D98576C14E4711200C3ED0C /* NodeFloppy.m in Sources */,
+				4DA2714514E58AFF00713104 /* STFloppyCluster.m in Sources */,
+				4DC6D3E115261FFB00B84338 /* GUIBootSectorController.m in Sources */,
+				4DC18919152F4DE900D7F068 /* GUIFormatController.m in Sources */,
+				4DA27BE6154B0226000C3D08 /* GUIFilenameController.m in Sources */,
+				4D9ED3E1157A047B0011BC1A /* LFTextFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4DA27C1D154B0556000C3D08 /* Filename.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DA27C1E154B0556000C3D08 /* English */,
+			);
+			name = Filename.xib;
+			sourceTree = "<group>";
+		};
+		4DB51DBF1526238D00B579C3 /* BootSector.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB51DC01526238D00B579C3 /* English */,
+			);
+			name = BootSector.xib;
+			sourceTree = "<group>";
+		};
+		4DC1892A152F4EAD00D7F068 /* DiskFormat.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC1892B152F4EAD00D7F068 /* English */,
+			);
+			name = DiskFormat.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AtariDisk_Prefix.pch;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				INFOPLIST_FILE = "AtariDisk-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = AtariDisk;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AtariDisk_Prefix.pch;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				INFOPLIST_FILE = "AtariDisk-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = AtariDisk;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AtariDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AtariDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
